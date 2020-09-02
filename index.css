@@ -1,0 +1,97 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 242, 245);
+}
+
+.wrapper {
+  width: 70%;
+  min-width: 300px;
+  display: grid;
+  margin: 175px auto 0px auto;
+  height: 300px;
+  grid-template-columns: 6fr 4fr;
+}
+
+.facebook {
+  font-size: 6rem;
+  color: rgb(0, 125, 236);
+  font-family: inherit;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+}
+
+.left-side {
+  align-self: center;
+  margin-right: 40px;
+}
+
+.form-wrap {
+  background-color: white;
+  border-radius: 8px;
+  display: grid;
+  grid-template-rows: 3fr 3fr 3fr 1fr 1fr 1fr;
+  justify-items: center;
+  height: 400px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+input {
+  width: 90%;
+  border-radius: 6px;
+  height: 80%;
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgb(221, 223, 226);
+  margin-bottom: 10px;
+  background-color: rgb(230, 240, 250);
+  font-size: 18px;
+}
+
+button {
+  background-color: rgb(46, 182, 65);
+  font-family: inherit;
+  border-radius: 6px;
+  width: 90%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: white;
+  font-size: 2rem;
+}
+.button:hover {
+  background-color: rgb(46, 182, 65);
+}
+.login {
+  background-color: rgb(0, 125, 236);
+  width: 90%;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+span {
+  color: black;
+  font-weight: 600;
+}
+p {
+  font-size: 16px;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.frgt-text {
+  color: rgb(0, 125, 236);
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: rgb(30, 74, 121);
+  border: black;
+  height: 40px;
+}
